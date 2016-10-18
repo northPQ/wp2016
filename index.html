@@ -5,11 +5,11 @@ My resume
 </title>
 <style>
 body { background-color:white;color:blue}
-p {font-size:40px;margin-bottom:60px}
-button {background-color:lightgray;position:fixed;top:200px} 
+p {font-size:40px;margin:0 0 60px 30px}
+button {border:none;background-color:black;position:static;top:200px} 
 button #1 {left:30px}
 button #2 {left:200px}
-ul {font-size:30px;left:40px}
+ul {font-size:30px;left:40px;z-index:-1}
 ul.page2 {visibility:hidden}
 a {color:#ff0066;text-decoration:none}
 img {float:right;max-width:650px;max-height:650px;margin:0 170px 0 70px}
@@ -20,9 +20,9 @@ img {float:right;max-width:650px;max-height:650px;margin:0 170px 0 70px}
 <img src="https://c5.staticflickr.com/6/5331/30227565796_ee2462826f_b.jpg">
 
 <p>My name is <b>Chia-Lung Chiang</b></P>
-<button id=1>left-page</button>
-<button id=2>right-page</button>
-<ul class=page1>
+<button id="1">left-page</button>
+<button id="2">right-page</button>
+<ul class="page1">
 <li>
 Department:Mechanical Engineering
 </li>
@@ -31,7 +31,7 @@ Birthday:9/5
 </li>
 </ul>
 
-<ul class=page2>
+<ul class="page2">
 <li>
 To know more about me.<br/>
 Here is
