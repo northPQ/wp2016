@@ -19,9 +19,10 @@ img {float:right;max-width:550px;max-height:600px;margin:0 100px 0 0px}
  </style>
  <script>
    var nnnn = document.getElementById("list_1").style.visibility;
-   function Flist_1()={
-   nnnn = "hidden"}
-      
+   function Flist_1(){
+   nnnn = "hidden";}
+   function Flist_2(){
+   document.getElementById("list_2").style.visibility="hidden";}
   </script>
   
 </head>
@@ -39,7 +40,7 @@ Department:Mechanical Engineering
 Birthday:9/5
 </li>
 </ul>
-<button class="R_button">a button</button>
+<button class="R_button" onclick="Flist_2()">a button</button>
 <ul class="page2" id="list_2">
 <li>
 To know more about me.<br/>
