@@ -7,23 +7,31 @@ My resume
 body { background-color:white;color:blue}
 p {font-size:40px;margin:0 0 20px 60px}
 //button {font-size:22px;border:none;background-color:lightgray;position:relative;top:220px;padding:5px 10px 5px 10px} 
-//button.L_button {left:15px}
+button {font-size:22px;border:none;background-color:lightgray;padding:5px 10px 5px 10px} 
+//button.L_button {left:550px}
 //button.R_button {left:550px}
 //ul {font-size:30px;position:relative;left:125px;top:90px;z-index:-1}
+ul {font-size:30px;z-index:-1}
 ul.page1 {border-left:solid orange;background-color:yellow}
 ul.page2 {border-left:solid red;background-color:lightblue}
 a {color:#ff0066;text-decoration:none}
 img {float:right;max-width:550px;max-height:600px;margin:0 100px 0 0px}
-</style>
+ </style>
+ <script>
+   var nnnn = document.getElementById("list_1").style.visibility;
+   function Flist_1()={
+   nnnn = hidden}
+      
+  </script>
+  
 </head>
 
 <body>
 <img src="https://c5.staticflickr.com/6/5331/30227565796_ee2462826f_b.jpg">
 
 <p>My name is <b>Chia-Lung Chiang</b></P>
-<button class="L_button">a button</button>
-<button class="R_button">a button</button>
-<ul class="page1">
+<button class="L_button" onclick="Flist_1()">a button</button>
+<ul class="page1" id="list_1">
 <li>
 Department:Mechanical Engineering
 </li>
@@ -32,7 +40,7 @@ Birthday:9/5
 </li>
 </ul>
 <button class="R_button">a button</button>
-<ul class="page2">
+<ul class="page2" id="list_2">
 <li>
 To know more about me.<br/>
 Here is
